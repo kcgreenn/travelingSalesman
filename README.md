@@ -62,10 +62,10 @@ the nearest neighbor algorithm was the best choice for my program.
 
 ## Possible Alternatives
 
-There are some alternatives to the nearest neighbor algorithm for solving this problem. The simplest would be a “brute-force search”, where the program tries all permutations 
-of possible routes and picks the one with the shortest distance. Although this is easy to implement in code, it would have extremely long computation times for even relatively 
-small numbers of nodes. Since the number of permutations is a factorial of the number of nodes, this type of algorithm would have a time complexity of O(n!), out of the range 
-of acceptability for this application (Johnson, 1997).
+There are some alternatives to the nearest neighbor algorithm for solving this problem. The simplest to implement would be a “brute-force search”, where the program tries all permutations of possible routes and picks the one with the shortest distance. Although this is easy to implement in code, it would have extremely long computation times for 
+even relatively small numbers of nodes. Since the number of permutations is a factorial of the number of nodes, this type of algorithm would have a time complexity of O(n!), 
+out of the range of acceptability for this application (Johnson, 1997).
+
 Another alternative algorithm is called Ant Colony Optimization. This solution is modelled after ants and the method they use to find efficient routes in the real world. 
 “Ants” in the code travel along edges in the graph and leave “pheromones” on each edge (Blum, 2005). The pheromones are subtracted from the edge weights, and other ants will 
 choose the edges with the most pheromones. This leads to near optimal solutions after many ants have traveled the graph. Although Ant Colony Optimization can produce near 
