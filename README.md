@@ -36,12 +36,12 @@ external libraries are employed.
 
 ## Employed Data Structures
 
-**Hash tables** - are very useful data structures when search and insertion time is important. They are able to scale to an arbitrarily high number of items and maintain the celerity 
+**Hash tables** - A very useful data structures when search and insertion time is important. They are able to scale to an arbitrarily high number of items and maintain the celerity 
 of these operations. The biggest drawback is that it is somewhat difficult to search for items by anything other than the unique identifier. If one wants to search by special 
 notes of each package, for example, the program will have to iterate through all packages and return the items with matching values. This will begin to take an unacceptably 
 long amount of time as the number of packages increases. 
 
-**Graphs** - are another useful data structure for simulating geographic locations and distances. The use of an edge weight list allows for easy lookup of distances between 
+**Graphs** - Another useful data structure for simulating geographic locations and distances. The use of an edge weight list allows for easy lookup of distances between 
 vertices for use in the nearest neighbor algorithm. One issue with weighted graphs is that the edge weight list could become exceedingly large as the number of vertices 
 increases, but it may still prove to be the most viable structure to use.
 
